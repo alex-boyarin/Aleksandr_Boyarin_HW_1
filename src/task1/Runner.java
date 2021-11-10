@@ -1,8 +1,8 @@
-package Task1;
+package task1;
 
 import java.util.Scanner;
 
-import static Task1.DayOfTheWeek.*;
+import static task1.DayOfTheWeek.*;
 
 public class Runner {
     public static void main(String[] args) {
