@@ -19,7 +19,7 @@ public class Number {
             if (Pattern.matches(regexForNumber, string)) {
                 listNumber.add(string);
             } else {
-                System.out.println("Invalid input!\nOnly numbers!");
+                System.out.println("Invalid input! Only numbers!");
             }
         }
         if (!listNumber.isEmpty()) {
