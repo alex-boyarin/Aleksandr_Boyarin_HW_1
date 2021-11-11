@@ -28,7 +28,6 @@ public class Runner {
             } else {
                 System.out.println("Не верный ввод!!!\n" +
                         "Число должно быть от 1 до 7");
-
             }
         }
     }
