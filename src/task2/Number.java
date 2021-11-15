@@ -8,11 +8,11 @@ public class Number {
         List<String> listNumber = new ArrayList<>();
         Scanner scanner = new Scanner(System.in);
         String string;
-        String regexForNumber = "\\-?\\d+";
+        String regexForNumber = "-?\\d+";
         String regexForWhile = "stop";
         System.out.println("\nEnter please numbers.\nAfter entering write \"stop\"");
         while (true) {
-            string = scanner.nextLine();
+            string = scanner.next();
             if (Pattern.matches(regexForWhile, string)) {
                 break;
             }
