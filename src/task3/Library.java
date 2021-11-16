@@ -26,14 +26,14 @@ public class Library {
 
     public List<Book> getListOfAuthorBooks(String author) {
         bookList = Arrays.stream(books)
-                .filter(b -> b.getAuthor().toLowerCase().contains(author.toLowerCase()))
+                .filter(book -> book.getAuthor().toLowerCase().contains(author.toLowerCase()))
                 .collect(Collectors.toList());
         return bookList.isEmpty() ? null : bookList;
     }
 
     public List<Book> getListOfTitleBooks(String bookTitle) {
         bookList = Arrays.stream(books)
-                .filter(b -> b.getTitle().toLowerCase().contains(bookTitle.toLowerCase()))
+                .filter(book -> book.getTitle().toLowerCase().contains(bookTitle.toLowerCase()))
                 .collect(Collectors.toList());
         return bookList.isEmpty() ? null : bookList;
     }
@@ -41,8 +41,8 @@ public class Library {
     public List<Book> getListOfYearPublicationBooks(String fromYearPublication, String toYearPublication) {
         if (isNumber(fromYearPublication, toYearPublication)) {
             bookList = Arrays.stream(books)
-                    .filter(b -> b.getYearOfPublishing() >= Integer.parseInt(fromYearPublication) &&
-                            b.getYearOfPublishing() <= Integer.parseInt(toYearPublication))
+                    .filter(book -> book.getYearOfPublishing() >= Integer.parseInt(fromYearPublication) &&
+                            book.getYearOfPublishing() <= Integer.parseInt(toYearPublication))
                     .collect(Collectors.toList());
             return bookList.isEmpty() ? null : bookList;
         } else {
