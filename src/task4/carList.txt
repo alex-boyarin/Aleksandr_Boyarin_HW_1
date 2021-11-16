@@ -1,0 +1,14 @@
+Bus;VW;sprinter;disel;5;180;16300
+Sedan;AUDI;a6;benzine;10;240;25000
+Coupe;BMW;m3 coupe;benzine;14;280;35000
+Crossover;KIA;Sportege;benzine;8;220;20000
+Universal;LADA;vesta;benzine;7;180;11000
+Sedan;Mitsubishi;Lancer9;benzine;9;220;15000
+Sedan;Toyota;Camry;benzine;9.5;220;13000
+Bus;Mercedes;Vito;disel;7.5;195;25500
+Bus;VW;MultiVan;benzine;9;180;31200
+Universal;Citroen;C3;disel;5.5;200;12400
+Bus;Renault;Trafic;disel;8;180;18600
+Universal;VW;Caddy;disel;5.8;175;13100
+Crossover;GEELY;coolray;benzine;7;220;25000
+Crossover;GEELY;tugella;benzine;10.5;240;42000
